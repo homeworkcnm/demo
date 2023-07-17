@@ -1,0 +1,62 @@
+
+.functions1 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 8px 16px;
+    border-top: 1px solid rgba(71, 98, 250, 0.08);
+    background-color: rgb(241, 245, 249);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 16;
+    height: 66px;
+}
+
+.functions2 {
+    padding: 0px 12px;
+    height: 42px;
+    cursor: pointer;
+    border-color: rgb(225, 227, 234);
+    color: rgb(30, 41, 59);
+}
+
+.functions3 {
+    padding: unset;
+}
+
+.functions4 {
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid rgba(100, 116, 139, 0.2);
+    color: rgb(30, 41, 59);
+}
+
+.functions5 {
+    font-size: 14px;
+    padding: 8px;
+    gap: 6px;
+    height: 28px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    letter-spacing: 0.01em;
+    vertical-align: middle;
+    cursor: inherit;
+    white-space: nowrap;
+    font-weight: 600;
+    text-transform: none;
+    border-radius: 3px;
+}
+
+.functions6 {
+    flex: 0 0 auto;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
